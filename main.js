@@ -4,18 +4,7 @@
             // once:true 
         });
 
-function sendEmail() {
-	Email.send({
-    SecureToken : "80c560169c69a805050a9e3f96132e6f",
-    To : "peterson.omobolaji@gmail.com",
-    From : "sender@example.com",
-    Subject : "Test Email",
-    Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
-    }).then(
-        message => alert("mail sent successfully")
-    );
-};
-sendEmail();
+
 
 (function ($) {
     $(document).ready(function () {
